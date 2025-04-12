@@ -3,19 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vinod Kumar(vinnu) – Music Director</title>
+  <title>Vinnu – Music Director</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
+  <!-- Background Music -->
   <audio autoplay loop id="bg-music">
     <source src="assets/audio/intro.mp3" type="audio/mpeg" />
     Your browser does not support the audio element.
   </audio>
 
+  <!-- Hero Section -->
   <header id="hero">
     <h1 class="cinematic-title">Vinod Kumar(vinnu)</h1>
-    <p>music composer, music director, mix engineer, singer, and songwriter</p>
+    <p class="subtitle">Music composer, music director, mix engineer, singer, and songwriter</p>
     <nav>
       <ul>
         <li><button data-tab="about">About</button></li>
@@ -25,6 +28,7 @@
     </nav>
   </header>
 
+  <!-- Main Content -->
   <main>
     <section id="about" class="tab-section active">
       <h2>About Me</h2>
@@ -33,23 +37,26 @@
 
     <section id="studio" class="tab-section">
       <h2>My Studio</h2>
-      <img src="assets/images/studio.jpg" alt="My Studio" class="photo" />
-      <p>My studio is equipped with top-tier hardware and software for composing, mixing, and mastering cinematic scores.</p>
+      <div class="center-content">
+        <img src="assets/images/studio.jpg" alt="My Studio" class="photo" />
+        <p>My studio is equipped with top-tier hardware and software for composing, mixing, and mastering cinematic scores.</p>
+      </div>
     </section>
 
     <section id="projects" class="tab-section">
       <h2>Previous Projects</h2>
       <div class="project">
-        <img src="assets/images/poster1.jpg" alt="Project Poster 1" />
-        <p>Project 1 – <a href="https://open.spotify.com" target="_blank">Listen on Spotify</a></p>
+        <img src="assets/images/O Saathiya.jpg" alt="Project Poster 1" />
+        <p>O Saathiya – <a href="https://open.spotify.com" target="_blank">Listen on Spotify</a></p>
       </div>
       <div class="project">
-        <img src="assets/images/poster2.jpg" alt="Project Poster 2" />
-        <p>Project 2 – <a href="https://music.apple.com" target="_blank">Listen on Apple Music</a></p>
+        <img src="assets/images/Naari.jpg" alt="Project Poster 2" />
+        <p>Naari – <a href="https://open.spotify.com/artist/3xb4cUCZsdg6VqxzLT3LXl" target="_blank">Listen on Apple Music</a></p>
       </div>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 Your Name. All rights reserved.</p>
   </footer>
